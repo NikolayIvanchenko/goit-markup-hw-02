@@ -24,7 +24,7 @@ ul {
   text-decoration: none;
 }
 
-.header-logo:hover {
+.header-logo:focus {
   color: #404bbf;
 }
 
@@ -41,7 +41,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.header-link:hover {
+.header-link:focus {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -62,7 +62,7 @@ ul {
   font-style: normal;
 }
 
-.address:hover {
+.address:focus {
   color: #404bbf;
 }
 /* hero */
