@@ -37,15 +37,6 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.header-link {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
 .header-link:active,
 .header-link:hover {
   color: #404bbf;
@@ -59,7 +50,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.contacts-link:hover,
+/* .contacts-link:hover, */
 .contacts-link:focus,
 .contacts-link:active {
   color: #404bbf;
@@ -122,13 +113,15 @@ ul {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111;
+  line-height: 1.11;
   text-transform: capitalize;
 }
 /* Our Team */
 .section-title {
   line-height: 1.11;
   letter-spacing: 0.02em;
+  font-size: 36px;
+  line-height: 1.11;
 }
 .teem-work {
   background-color: #f4f4fd;
