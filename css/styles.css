@@ -49,7 +49,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-/* .contacts-link:hover, */
+.contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
 }
