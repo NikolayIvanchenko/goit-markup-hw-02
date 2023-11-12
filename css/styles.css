@@ -65,7 +65,7 @@ ul {
   color: #404bbf;
 }
 
-.addres {
+.address {
   font-style: normal;
 }
 /* hero */
@@ -97,7 +97,7 @@ ul {
 .hero-button:hover,
 .hero-button:focus,
 .hero-button:active {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* benefits */
@@ -140,6 +140,7 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .person-job {
@@ -147,6 +148,7 @@ ul {
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .section-teem-person {
@@ -169,6 +171,11 @@ ul {
 }
 
 /* Our Portfolio */
+
+.section-title {
+  font-size: 20px;
+  line-height: 1.2;
+}
 .our-section-portfolio h3 {
   letter-spacing: 0.02em;
   font-size: 16px;
@@ -178,6 +185,8 @@ ul {
 .our-section-portfolio p {
   letter-spacing: 0.02em;
   color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
 }
 /* footer */
 .footer {
