@@ -166,13 +166,13 @@ ul {
 /* Our Portfolio */
 
 .section-title {
-  font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.11;
+  font-size: 36px;
 }
 .our-section-portfolio h3 {
   letter-spacing: 0.02em;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .our-section-portfolio p {
