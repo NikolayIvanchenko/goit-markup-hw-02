@@ -56,11 +56,17 @@ ul {
   color: #434455;
   text-decoration: none;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:focus,
+.contacts-link:active {
   color: #404bbf;
+}
+
+.addres {
+  font-style: normal;
 }
 /* hero */
 .hero-section {
@@ -89,7 +95,8 @@ ul {
 }
 
 .hero-button:hover,
-.hero-button:focus {
+.hero-button:focus,
+.hero-button:active {
   color: #404bbf;
 }
 
@@ -106,6 +113,7 @@ ul {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* section-title */
@@ -157,8 +165,20 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
+/* Our Portfolio */
+.our-section-portfolio h3 {
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.our-section-portfolio p {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 /* footer */
 .footer {
   background-color: #2e2f42;
