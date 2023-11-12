@@ -32,6 +32,10 @@ ul {
   color: #2e2f42;
 }
 
+.accent:hover {
+  color: #404bbf;
+}
+
 .header-link {
   color: #2e2f42;
   font-family: Roboto;
