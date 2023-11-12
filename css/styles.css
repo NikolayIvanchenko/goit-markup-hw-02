@@ -37,7 +37,6 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.header-link:active,
 .header-link:hover {
   color: #404bbf;
   text-decoration: underline;
@@ -51,8 +50,7 @@ ul {
 }
 
 /* .contacts-link:hover, */
-.contacts-link:focus,
-.contacts-link:active {
+.contacts-link:focus {
   color: #404bbf;
 }
 
