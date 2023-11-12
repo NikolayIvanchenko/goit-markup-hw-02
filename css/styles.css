@@ -24,6 +24,10 @@ ul {
   text-decoration: none;
 }
 
+.header-logo:hover {
+  color: #404bbf;
+}
+
 .header-logo .accent {
   color: #2e2f42;
 }
