@@ -1,8 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #fff;
-  font-weight: 400;
-  font-size: 14px;
+  background-color: #ffffff;
+  color: #434455;
 }
 
 a {
@@ -15,18 +14,27 @@ ul {
 
 /* header */
 .header-logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .header-logo .accent {
-  color: #4d5ae5;
+  color: #2e2f42;
+}
+
+.header-link {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .header-link {
@@ -38,11 +46,8 @@ ul {
   letter-spacing: 0.32px;
 }
 
+.header-link:active,
 .header-link:hover {
-  color: #404bbf;
-}
-
-.header-link-studio:active {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -78,6 +83,14 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   border: none;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #404bbf;
 }
 
 /* benefits */
@@ -86,7 +99,7 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .benefits-text {
@@ -105,6 +118,10 @@ ul {
   text-transform: capitalize;
 }
 /* Our Team */
+.section-title {
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
 .teem-work {
   background-color: #f4f4fd;
 }
@@ -160,8 +177,9 @@ ul {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.166;
+  line-height: 1.17;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .footer .accent {
